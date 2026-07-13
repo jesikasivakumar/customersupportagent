@@ -1,0 +1,26 @@
+# Environment & secrets — NEVER commit these
+.env
+*.env
+.streamlit/secrets.toml
+
+# Generated at runtime — contains real customer queries, must not be public
+customer_history.db
+customer_history.txt
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
